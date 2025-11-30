@@ -3,122 +3,163 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>יואב יושע – האתר הרשמי</title>
+  <title>יואב יושע – הקישורים הרשמיים</title>
 
   <style>
     body {
       margin: 0;
-      padding: 0;
       font-family: "Assistant", sans-serif;
-      background: #f4f4f4;
-      color: #1f1f1f;
+      background: #f7f9fa;
+      color: #1a1a1a;
     }
 
     header {
       text-align: center;
       padding: 40px 20px;
-      background: #2e5541;
-      color: white;
+    }
+
+    header img {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
     }
 
     header h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
+      font-size: 32px;
+      margin: 5px 0;
     }
 
     header p {
-      font-size: 18px;
-      opacity: 0.9;
+      font-size: 16px;
+      opacity: 0.8;
+    }
+
+    .icons {
+      margin-top: 15px;
+    }
+
+    .icons a {
+      margin: 0 8px;
+      color: #1a1a1a;
+      font-size: 22px;
+      text-decoration: none;
+      opacity: 0.85;
+    }
+
+    .icons a:hover {
+      opacity: 1;
     }
 
     .container {
-      max-width: 900px;
-      margin: 40px auto;
+      max-width: 600px;
+      margin: 20px auto;
       padding: 0 20px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
     }
 
     .card {
       background: white;
-      padding: 20px;
+      padding: 18px 20px;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      text-align: center;
+      margin-bottom: 16px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.06);
       transition: 0.2s;
     }
 
     .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+      transform: translateY(-3px);
     }
 
     .card h3 {
-      margin: 10px 0;
+      margin: 0 0 8px;
+      font-size: 18px;
     }
 
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      background: #2e5541;
-      color: white;
-      border-radius: 8px;
+    .card p {
+      margin: 0;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+
+    .card a {
       text-decoration: none;
-      font-weight: bold;
-    }
-
-    .btn:hover {
-      background: #244635;
+      display: block;
+      color: inherit;
     }
   </style>
+
+  <!-- Icons from Font Awesome -->
+  <script src="https://kit.fontawesome.com/a2d9d5a64b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
 <header>
+  <img src="PROFILE.jpg" alt="Yoav Yosha">
   <h1>יואב יושע</h1>
-  <p>העמוד המרכז את כל ערוצי התוכן והקישורים החשובים</p>
+  <p>סדנאות נשימה | קרח | חוסן מנטלי | אירועים | תהליכים אישיים | קבוצות</p>
+
+  <div class="icons">
+    <a href="https://instagram.com/yoav_yosha" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://facebook.com/yoav.yosha" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://wa.me/972XXXXXXX" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://tiktok.com/@yoav_yosha" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
+  </div>
 </header>
 
 <div class="container">
 
-  <div class="card">
-    <h3>Facebook</h3>
-    <p>עדכונים, פוסטים ותוכן אישי ומקצועי.</p>
-    <a class="btn" href="https://www.facebook.com/yoav.yosha" target="_blank">ביקור</a>
-  </div>
+  <a href="YOUR_LINK_1" class="card" target="_blank">
+    <h3>הרשמה ליום כיף פעמית</h3>
+    <p>בואו ליהנות מחוג חווייתי במים</p>
+  </a>
 
-  <div class="card">
-    <h3>Instagram</h3>
-    <p>תוכן ויזואלי, סטוריז ועדכונים מהיום יום.</p>
-    <a class="btn" href="https://instagram.com/yoav.yosha" target="_blank">ביקור</a>
-  </div>
+  <a href="YOUR_LINK_2" class="card" target="_blank">
+    <h3>גם אני אחי – קבוצת גברים</h3>
+    <p>WhatsApp Community – הצטרפות חופשית</p>
+  </a>
 
-  <div class="card">
-    <h3>LinkedIn</h3>
-    <p>פרופיל מקצועי, ניסיון ותפקידים.</p>
-    <a class="btn" href="https://linkedin.com/in/yoavyosha" target="_blank">ביקור</a>
-  </div>
+  <a href="YOUR_LINK_3" class="card" target="_blank">
+    <h3>הרשמה לסדנאות קרח ונשימות</h3>
+    <p>הצטרפו לחוויה עוצמתית ומעצימה</p>
+  </a>
 
-  <div class="card">
-    <h3>TikTok</h3>
-    <p>תוכן קצר ויצירתי שמתעדכן בקביעות.</p>
-    <a class="btn" href="https://www.tiktok.com/@yoav.yosha" target="_blank">ביקור</a>
-  </div>
+  <a href="YOUR_LINK_4" class="card" target="_blank">
+    <h3>ליווי אישי – לחצו כאן</h3>
+    <p>תהליך אישי מותאם ומעמיק</p>
+  </a>
 
-  <div class="card">
-    <h3>WhatsApp</h3>
-    <p>צ'אט ישיר ומהיר עם יואב.</p>
-    <a class="btn" href="https://wa.me/972000000000" target="_blank">שליחת הודעה</a>
-  </div>
+  <a href="YOUR_LINK_5" class="card" target="_blank">
+    <h3>כרטיסיית טבילות בקירור</h3>
+    <p>רכישת כרטיסייה – לחצו כאן</p>
+  </a>
 
-  <div class="card">
-    <h3>Email</h3>
-    <p>פתיחת מייל ליצירת קשר מקצועי.</p>
-    <a class="btn" href="mailto:yoav@example.com">שליחה</a>
-  </div>
+  <a href="YOUR_LINK_6" class="card" target="_blank">
+    <h3>ים ומלואו – קבוצת עדכונים</h3>
+    <p>עדכונים וחדשות חמות</p>
+  </a>
+
+  <a href="YOUR_LINK_7" class="card" target="_blank">
+    <h3>הפודקאסט "ים ומלואו" – יוטיוב</h3>
+    <p>צפייה בפרקים המלאים</p>
+  </a>
+
+  <a href="YOUR_LINK_8" class="card" target="_blank">
+    <h3>להנמכה בפודקאסט – לחצו כאן</h3>
+    <p>קישור להגשת בקשה</p>
+  </a>
+
+  <a href="YOUR_LINK_9" class="card" target="_blank">
+    <h3>הפודקאסט "ים ומלואו" – ספוטיפי</h3>
+    <p>האזנה לכל הפרקים</p>
+  </a>
+
+  <a href="YOUR_LINK_10" class="card" target="_blank">
+    <h3>מפרסמים וחסויות לפודקאסט</h3>
+    <p>לחצו כאן לקבלת פרטים</p>
+  </a>
 
 </div>
 
